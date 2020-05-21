@@ -1,0 +1,37 @@
+.side-bar
+  .side-bar__user-name
+    .top-items
+      .top-items__name
+        Abe
+      .top-items__icons
+        %ul.top-items__icons__menu
+          %li.top-items__icons__menu__new-group<
+            = link_to "#" do
+              = icon('far', 'edit')
+          %li.top-items__icons__menu__edit-user<
+            = link_to "#" do
+              = icon('fas', 'cog')
+
+  .side-bar__group-list
+    .group
+      = link_to "#" do
+        test1
+      %p
+        まだメッセージはありません
+    .group
+      = link_to "#" do
+        test2
+      %p
+        まだメッセージはありません
+    .group
+      = link_to "#" do
+        test3
+      %p
+        まだメッセージはありません
+    .group
+      = link_to "#" do
+        test4
+      %p
+        まだメッセージはありません
+
+
