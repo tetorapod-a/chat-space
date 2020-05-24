@@ -34,19 +34,19 @@
       background-color: $side-sub-color;
       height: calc(100vh - 100px);
       padding: 20px;
-      color: $side-font-color;
-      font-weight: bold;
         .group{
           margin-bottom: 40px;
             a{
               text-decoration: none;
+            }
+            &__name{
               font-size: 15px;
               color: $side-font-color;
-              display: block;
             }
-            p{
+            &__message{
               margin-top: 5px;
-              font-size: 11px;
+              font-size: 12px;
+              color: $side-font-color;
             }
         }
     }
