@@ -69,31 +69,31 @@
     height: 90px;
     background-color: #d2d2d2;
     padding: 20px 40px;
-     .new{
-       display: flex;
-       justify-content: space-between;
-       .input-box{
-         display: flex;
-         position: relative;
-          &__text{
-            height: 50px;
-            width: calc(100vw - 495px);
-            padding: 0 10px;
-            border-style: none;
-          }
-          &__image{
-            position: absolute;
-            right: 10px;
-            cursor: pointer;
-              &-file{
-                display: none;
-              }
-              .far{
-                line-height: 50px;
-                font-size: 25px;
-              }
-          }
-       }
+    display: flex;
+    justify-content: space-between;
+      .input-box{
+        display: flex;
+        position: relative;
+        &__text{
+          // position: relative;
+          height: 50px;
+          width: calc(100vw - 495px);
+          padding: 0 10px;
+          border-style: none;
+        }
+        &__image{
+          position: absolute;
+          right: 125px;
+          cursor: pointer;
+            &-file{
+              display: none;
+            }
+            .far{
+              line-height: 50px;
+              font-size: 25px;
+            }
+        }
+      }
        .submit-btn{
          height: 50px;
          width: 100px;
@@ -102,6 +102,6 @@
          color: #ffffff;
          cursor: pointer;
        }
-     }
+     
   }
 }
