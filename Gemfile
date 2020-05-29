@@ -72,3 +72,7 @@ gem 'mini_magick'
 gem 'jquery-rails'
 
 gem 'pry-byebug'
+
+group :production do
+  gem 'unicorn', '5.4.1'
+end
